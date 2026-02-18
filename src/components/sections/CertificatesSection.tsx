@@ -2,10 +2,10 @@ import { motion } from "framer-motion";
 import { Award, ExternalLink } from "lucide-react";
 
 const placeholderCerts = [
-  { id: 1, name: "AWS Solutions Architect", issuer: "Amazon Web Services", date: "2024", link: "#" },
-  { id: 2, name: "Google Cloud Professional", issuer: "Google", date: "2023", link: "#" },
-  { id: 3, name: "Meta Frontend Developer", issuer: "Meta", date: "2023", link: "#" },
-  { id: 4, name: "Certified Scrum Master", issuer: "Scrum Alliance", date: "2022", link: "#" },
+  { id: 1, name: "Cloud Practitioner", issuer: "Amazon Web Services", date: "2026", link: "#" },
+  { id: 2, name: "System Arcticture Associate", issuer: "Amazon Web Services", date: "In Process", link: "#" },
+  { id: 3, name: "Professional Scrum Management 1", issuer: "Scrum.org", date: "In Process", link: "#" },
+  //{ id: 4, name: "Certified Scrum Master", issuer: "Scrum Alliance", date: "2022", link: "#" },
 ];
 
 const CertificatesSection = () => {

@@ -3,10 +3,10 @@ import { ExternalLink } from "lucide-react";
 import { Badge } from "@/components/ui/badge";
 
 const placeholderProjects = [
-  { id: 1, title: "Project Alpha", description: "A web application that streamlines workflow management for distributed teams.", tags: ["React", "TypeScript", "Tailwind"], link: "#" },
-  { id: 2, title: "Project Beta", description: "Mobile-first e-commerce platform with real-time inventory tracking.", tags: ["Next.js", "Supabase", "Stripe"], link: "#" },
-  { id: 3, title: "Project Gamma", description: "Data visualization dashboard for monitoring key business metrics.", tags: ["D3.js", "Python", "PostgreSQL"], link: "#" },
-  { id: 4, title: "Project Delta", description: "AI-powered content management system with smart categorization.", tags: ["AI/ML", "Node.js", "AWS"], link: "#" },
+  { id: 1, title: "HomeLab | Personal Physical Server", description: "Repurposing old hardware to build personal Ubunti server from ground up, with Compute, Store, network and database hosting capability", tags: ["Linux", "Docker", "Cloudflare"], link: "https://github.com/Dhruv-SP/Home-lab", image:"ubuntu_homelab_center.png"},
+  { id: 2, title: "System Flow generator and analysis", description: "An AI powered tool to generate line analysis graph of a given system description.", tags: ["AWS", "LangChain", "Streamlit"], link: "https://portfolio.dhruvhere.info/system-flow", image: "system_flow_3_2.jpg" },
+  // { id: 3, title: "Project Gamma", description: "Data visualization dashboard for monitoring key business metrics.", tags: ["D3.js", "Python", "PostgreSQL"], link: "#" },
+  // { id: 4, title: "Project Delta", description: "AI-powered content management system with smart categorization.", tags: ["AI/ML", "Node.js", "AWS"], link: "#" },
 ];
 
 const ProjectsSection = () => {
@@ -36,8 +36,15 @@ const ProjectsSection = () => {
               transition={{ duration: 0.4, delay: i * 0.1 }}
               className="group block bg-card border border-border rounded-xl p-6 hover:border-primary/50 transition-all duration-300"
             >
-              <div className="h-40 bg-secondary rounded-lg mb-5 flex items-center justify-center">
-                <span className="text-muted-foreground text-xs">Project Image</span>
+              <div className="h-40 bg-secondary rounded-lg mb-5 overflow-hidden">
+                <img
+                  src={project.image}
+                  alt={project.title}
+                  className="h-full w-full object-cover"
+                  loading="lazy"
+                />
+                <span className="text-muted-foreground text-xs">Project Image</span> 
+
               </div>
               <div className="flex items-start justify-between mb-3">
                 <h3 className="text-xl font-semibold text-foreground group-hover:text-primary transition-colors">

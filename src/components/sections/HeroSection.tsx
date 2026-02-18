@@ -10,17 +10,18 @@ const HeroSection = () => {
           animate={{ opacity: 1, x: 0 }}
           transition={{ duration: 0.7 }}
         >
-          <p className="text-primary font-medium mb-3 tracking-widest uppercase text-sm">Hello, I'm</p>
+          <p className="text-primary font-medium mb-3 tracking-widest uppercase text-sm">Hey there, I'm</p>
           <h1 className="text-5xl md:text-7xl font-bold tracking-tight text-foreground leading-tight mb-6">
-            Your Name
+            Dhruv Patel
           </h1>
           <p className="text-xl md:text-2xl text-muted-foreground mb-4">
-            Professional Title & Tagline
+            Data Engineer | Mentor | AWS Certified 
           </p>
           <p className="text-muted-foreground leading-relaxed max-w-lg mb-8">
-            A passionate professional dedicated to creating impactful solutions. 
-            With expertise spanning multiple domains, I bring ideas to life through 
-            innovation and meticulous attention to detail.
+            Driven by curiocity.
+            <br></br>
+            Engineering AWS native data and automation solutions. With interest in AI/ML, Cloud and homelabbing, 
+            I bring a diverse experience into your team. 
           </p>
           <a
             href="#projects"
@@ -37,8 +38,12 @@ const HeroSection = () => {
           transition={{ duration: 0.7, delay: 0.2 }}
           className="flex justify-center"
         >
-          <div className="w-72 h-72 md:w-96 md:h-96 rounded-2xl bg-secondary border border-border flex items-center justify-center overflow-hidden">
-            <span className="text-muted-foreground text-sm">Your Photo</span>
+          <div className="relative w-72 h-72 md:w-96 md:h-96 rounded-2xl bg-secondary border border-border overflow-hidden">
+            <img
+              src="/1689728661588.jpeg"
+              alt="Dhruv Patel"
+              className="absolute inset-0 h-full w-full object-cover object-center"
+            />
           </div>
         </motion.div>
       </div>

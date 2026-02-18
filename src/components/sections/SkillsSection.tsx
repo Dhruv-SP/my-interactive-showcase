@@ -3,15 +3,18 @@ import { Badge } from "@/components/ui/badge";
 import { Briefcase, GraduationCap } from "lucide-react";
 
 const skillCategories = [
-  { category: "Frontend", skills: ["React", "TypeScript", "Tailwind CSS", "Next.js", "HTML/CSS"] },
-  { category: "Backend", skills: ["Node.js", "Python", "PostgreSQL", "REST APIs", "GraphQL"] },
-  { category: "Tools & Other", skills: ["Git", "Docker", "AWS", "Figma", "Agile"] },
+  { category: "Language", skills: ["Python", "SQL", "Java"] },
+  { category: "AI/ML", skills: ["LangChain", "Crew-AI", "RAG", "Google ADK"] },
+  { category: "AWS", skills: ["S3", "ECS", "RDS", "Lambda", "Sagemaker", "Bedrock", "Glue", "Redshift"] },
+  { category: "Tools", skills: ["Docker", "Git", "Portainer"] },
 ];
 
 const experiences = [
-  { role: "Senior Developer", company: "Tech Corp", period: "2022 – Present", type: "work" as const },
-  { role: "Full Stack Developer", company: "StartupXYZ", period: "2020 – 2022", type: "work" as const },
-  { role: "B.Sc. Computer Science", company: "University", period: "2016 – 2020", type: "education" as const },
+  { role: "Data Engineer", company: "Neuronet Solutions INC", period: "Jan 2026 – Present", type: "work" as const },
+  { role: "Data Engineer", company: "CREWASIS.AI", period: "Aug 2024 – Oct 2025", type: "work" as const },
+  { role: "Teaching Content Assistant", company: "Computer Intelligence Lab", period: "Oct 2023 – May 2024", type: "education" as const },
+  { role: "Data Scientist", company: "Uppskale", period: "May 2021 – June 2022", type: "work" as const },
+  { role: "Java Developer", company: "BIM infrasolutions", period: "Sep 2019 – March 2020", type: "work" as const },
 ];
 
 const SkillsSection = () => {

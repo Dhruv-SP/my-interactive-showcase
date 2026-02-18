@@ -3,9 +3,9 @@ import { ExternalLink, Calendar } from "lucide-react";
 import { Badge } from "@/components/ui/badge";
 
 const placeholderPosts = [
-  { id: 1, title: "Building Scalable Web Apps", excerpt: "Key architectural decisions and patterns that help applications grow without growing pains.", date: "Jan 2025", tags: ["Architecture", "Web Dev"], link: "#" },
-  { id: 2, title: "The Future of TypeScript", excerpt: "Exploring the latest features and what they mean for modern development workflows.", date: "Dec 2024", tags: ["TypeScript", "Opinion"], link: "#" },
-  { id: 3, title: "Design Systems That Scale", excerpt: "How to build and maintain design systems that work across teams and products.", date: "Nov 2024", tags: ["Design", "Frontend"], link: "#" },
+  { id: 1, title: "Stelvio, Python as IaC", excerpt: "I came across Stelvio a few days back, and… I've a conundrum...", date: "Feb 2026", tags: ["DevOps", "IaC"], link: "https://www.linkedin.com/posts/dhruvsp_i-came-across-stelvio-a-few-days-back-and-activity-7428121084127907840-9qxf?utm_source=share&utm_medium=member_desktop&rcm=ACoAACv3P1IBsvssGrLn539KEWu9pgJX6jYKwdM" },
+  { id: 2, title: "Homelab", excerpt: "A quick post about how I optimize my personal projects hosting cost from $50-60/month to $0.Yup $𝟬 ...", date: "Jan 2026", tags: ["Ubuntu", "Hosting"], link: "https://www.linkedin.com/posts/dhruvsp_a-quick-post-about-how-i-optimize-my-personal-activity-7419424372332867586-q2sL?utm_source=share&utm_medium=member_desktop&rcm=ACoAACv3P1IBsvssGrLn539KEWu9pgJX6jYKwdM" },
+  //{ id: 3, title: "Design Systems That Scale", excerpt: "How to build and maintain design systems that work across teams and products.", date: "Nov 2024", tags: ["Design", "Frontend"], link: "#" },
 ];
 
 const BlogSection = () => {
@@ -18,7 +18,7 @@ const BlogSection = () => {
           viewport={{ once: true }}
           transition={{ duration: 0.5 }}
         >
-          <h2 className="text-4xl font-bold text-foreground mb-2">Blog & Articles</h2>
+          <h2 className="text-4xl font-bold text-foreground mb-2">Blogs & Posts</h2>
           <p className="text-muted-foreground mb-12 max-w-lg">Thoughts, tutorials, and insights I've published.</p>
         </motion.div>
 
