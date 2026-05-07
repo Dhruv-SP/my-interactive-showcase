@@ -3,7 +3,7 @@ import { ExternalLink } from "lucide-react";
 import { Badge } from "@/components/ui/badge";
 
 const placeholderProjects = [
-  { id: 1, title: "HomeLab | Personal Physical Server", description: "Repurposing old hardware to build personal Ubunti server from ground up, with Compute, Store, network and database hosting capability", tags: ["Linux", "Docker", "Cloudflare"], link: "https://github.com/Dhruv-SP/Home-lab", image:"ubuntu_homelab_center.png"},
+  { id: 1, title: "HomeLab | Personal Physical Server", description: "Repurposing old hardware to build personal Ubuntu server from ground up, with Compute, Store, network and database hosting capability", tags: ["Linux", "Docker", "Cloudflare"], link: "https://github.com/Dhruv-SP/Home-lab", image:"ubuntu_homelab_center.png"},
   { id: 2, title: "System Flow generator and analysis", description: "An AI powered tool to generate line analysis graph of a given system description.", tags: ["AWS", "LangChain", "Streamlit"], link: "https://portfolio.dhruvhere.info/system-flow", image: "system_flow_3_2.jpg" },
   // { id: 3, title: "Project Gamma", description: "Data visualization dashboard for monitoring key business metrics.", tags: ["D3.js", "Python", "PostgreSQL"], link: "#" },
   // { id: 4, title: "Project Delta", description: "AI-powered content management system with smart categorization.", tags: ["AI/ML", "Node.js", "AWS"], link: "#" },
