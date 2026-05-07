@@ -11,7 +11,7 @@ const placeholderProjects = [
 
 const ProjectsSection = () => {
   return (
-    <section id="projects" className="py-24 px-6">
+    <section id="projects" className="py-24 px-6" style={{backgroundColor: '#1445525f'}}>
       <div className="max-w-6xl mx-auto">
         <motion.div
           initial={{ opacity: 0, y: 30 }}

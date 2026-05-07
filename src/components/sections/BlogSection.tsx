@@ -10,7 +10,7 @@ const placeholderPosts = [
 
 const BlogSection = () => {
   return (
-    <section id="blog" className="py-24 px-6">
+    <section id="blog" className="py-24 px-6" style={{backgroundColor: '#1445525f'}}>
       <div className="max-w-6xl mx-auto">
         <motion.div
           initial={{ opacity: 0, y: 30 }}

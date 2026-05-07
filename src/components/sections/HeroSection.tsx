@@ -3,8 +3,8 @@ import { ArrowDown } from "lucide-react";
 
 const HeroSection = () => {
   return (
-    <section id="about" className="min-h-screen flex items-center justify-center relative px-6 pt-20">
-      <div className="max-w-6xl mx-auto w-full grid md:grid-cols-2 gap-12 items-center">
+    <section id="about" className="min-h-screen flex items-center justify-center relative px-6 pt-20" style={{backgroundColor: '#1445525f'}}>
+      <div className="max-w-6xl mx-auto w-full grid md:grid-cols-2 gap-12 items-center ">
         <motion.div
           initial={{ opacity: 0, x: -40 }}
           animate={{ opacity: 1, x: 0 }}
@@ -14,10 +14,10 @@ const HeroSection = () => {
           <h1 className="text-5xl md:text-7xl font-bold tracking-tight text-foreground leading-tight mb-6">
             Dhruv Patel
           </h1>
-          <p className="text-xl md:text-2xl text-muted-foreground mb-4">
+          <p className="text-xl md:text-2xl text-white-foreground mb-4">
             Data Engineer | Mentor | AWS Certified 
           </p>
-          <p className="text-muted-foreground leading-relaxed max-w-lg mb-8">
+          <p className="text-white-foreground leading-relaxed max-w-lg mb-8">
             Driven by curiocity.
             <br></br>
             Engineering AWS native data and automation solutions. With interest in AI/ML, Cloud and homelabbing, 

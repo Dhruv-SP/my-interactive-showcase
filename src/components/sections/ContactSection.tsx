@@ -2,7 +2,7 @@ import { motion } from "framer-motion";
 import { Linkedin, Mail, Phone, Github, Twitter } from "lucide-react";
 
 const contactLinks = [
-  { icon: Mail, label: "Email", value: "dhruv.patel.0069@gmail.com", href: "mailto:dhruv.patel.0069@gmail.com" },
+  { icon: Mail, label: "Email", value: "dhruv.patel.0069\n@gmail.com", href: "mailto:dhruv.patel.0069@gmail.com" },
   { icon: Linkedin, label: "LinkedIn", value: "in/dhruvsp", href: "https://www.linkedin.com/in/dhruvsp/" },
   { icon: Phone, label: "Phone", value: "+1 (551) 344-6410"},
   { icon: Github, label: "GitHub", value: "/Dhruv-SP", href: "https://github.com/Dhruv-SP" },
@@ -56,7 +56,7 @@ const ContactSection = () => {
           transition={{ delay: 0.6 }}
           className="text-muted-foreground text-xs mt-16"
         >
-          © {new Date().getFullYear()} Your Name. All rights reserved.
+          © {new Date().getFullYear()} dhruvhere.info. All rights reserved.
         </motion.p>
       </div>
     </section>
